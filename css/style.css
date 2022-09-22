@@ -17,6 +17,10 @@ header{
     right:0;
 }
 
+.logo{
+    width: 100px;
+}
+
 .nav-links{
     display: flex;
     justify-content: space-between;
