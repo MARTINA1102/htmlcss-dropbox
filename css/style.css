@@ -7,6 +7,9 @@
 html{
     font-family: 'Open Sans', sans-serif;
 }
+p{
+    font-size: .8rem;
+}
 
 header{
     width: 100%;
@@ -43,23 +46,25 @@ header{
 li{
     padding: 0 10px;
 
+
 }
 
 .btn{
     color: white;
     background-color: blue;
     text-decoration: none;
-    padding:10px
+    padding:10px;
+    text-align: center;
+    font-size: .8rem;
     
 }
 
 
 
 
-
-
 main{
     width: 100%;
+    min-width: 400px;
 }
 .background{
     max-height: 650px;
@@ -68,6 +73,7 @@ main{
 }
 .container{
     max-width: 1000px;
+    min-width: 400px;
     margin:0 auto;
     color: black;
     padding-top: 100px;
@@ -89,26 +95,344 @@ h1{
 }
 
 .img-1{
-    width: 700px;
+    width: 100%;
 }
 
 .flex1{
     display: flex;
+    min-width: 400px;
     padding-top: 3rem;
     justify-content: space-between;
-    
-
+    flex-wrap:wrap;
 }
+
+.flex3{
+    display: flex;
+    min-width: 400px;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.flex4{
+    display: flex;
+    min-width:200px;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.caratt{
+    flex:1 1 10%;
+}
+.spieg{
+    flex:1 1 85%;
+}
+
+
 .testo1{
-    flex:1 1 40%;
+    flex:1 1 30%;
     text-align: initial;
     
 }
 .imguno{
-    flex:1 1 60%;
+    flex:1 1 70%;
 
 }
 
 .padd{
     padding-top: 3rem;
+}
+.containerdue{
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 6rem;
+}
+h2{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.input{
+    color: black;
+    padding-right: 20px;
+    font-size: 0.8rem;
+    
+}
+
+li{
+    list-style: none;
+    font-size: 0.8rem;
+}
+.spazio{
+    padding: 3rem 0;
+}
+
+.intestazione{
+    padding: 1rem;
+    border: 1px solid grey;
+    text-align: center;
+}
+h2{
+    font-size: 2rem;
+    padding-bottom: 3rem;
+}
+
+.costo{
+    font-size: 0.8rem;
+    font-weight: bolder;
+    padding: 1rem 0;
+}
+.grey{
+    color: gray;
+    font-size: 0.8rem;
+    padding-bottom: 3rem;
+}
+
+.prova{padding: 4rem 0;   
+}
+
+.linkopp{
+    padding-bottom: 7rem;
+    font-size: .8rem;
+}
+
+h3,h4{
+    padding-bottom:1rem;
+}
+
+.spazio-uno{
+    padding: 2rem 0;
+}
+
+
+
+.contornato{
+    border: 1px solid grey;
+    padding: 1rem;
+
+}
+.tabelle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tab1, .tab2, .tab3{
+    flex:1 1 28%;   
+}
+.tab1{
+    margin-left:0;
+    margin-right: 20px;
+}
+.tab3{
+    margin-left:20px;
+    margin-right:0px;
+}
+.tab2{
+    margin: 0 20px;
+}
+
+.tab4{
+    flex:1 1 28%;
+}
+
+
+.checklist {
+    margin: 0;
+    padding-left: 1.2rem;
+
+}
+.box{
+    max-width: 500px;
+}
+  
+
+.parte-finale-tab1{
+    margin-bottom: 8.3rem;
+}
+
+.parte-finale-tab3{
+    margin-bottom: 6.3rem;
+}
+.tabelle{
+    padding-bottom: 3rem;
+}
+.percentualemag{
+    flex: 1 1 70%;
+}
+.percentualemin{
+    flex: 1 1 30%;
+}
+
+
+.centrato{
+    padding-left:80px;
+    padding-right: 80px;
+}
+.centratouno{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.top{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.spazietto{
+    padding-top: 2rem;
+}
+
+.imgdue{
+    flex:1 1 50%
+}
+
+.testo2{
+    flex: 1 1 30%;
+    padding-left: 5rem; 
+    padding-top: 5rem;  
+}
+
+.spazio1{
+    padding-bottom: 1rem;
+}
+.giustificato{
+    text-align: justify;
+}
+
+.bianco{
+    background-color: white;
+    color: black;
+    border:1px solid black;   
+}
+
+.flex2{
+    display: flex;
+    flex: 0 0 900px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.img2{
+    width: 200px;
+}
+.casella{
+    flex:0 0 29%;
+    padding-bottom: 3rem;  
+}
+.casella1{
+    padding-left: 0;
+    padding-right: 0.5rem ;
+}
+.casella2{
+    padding:0 .5rem;
+}
+.casella3{
+    padding-left: 0.5rem;
+    padding-right: 0;
+
+
+}
+
+.spazio4{
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+}
+
+.ristretto{
+    max-width: 500px;
+    
+}
+.logoimg{
+    width: 200px;
+    color: white;
+    justify-self: center;
+}
+
+.loghiflex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.quattrologhi{
+    flex: 1 1 33%;
+    display: flex;
+}
+.quattrologhi div{
+    flex: 1 1 50%;
+}
+
+.logouno{
+    padding: 50px;
+    background-color: rgb(31, 226, 151);
+}
+
+.testoacapo{
+    flex: 0 1 50%;
+    color: rgb(81, 16, 16);
+}
+
+.senzabordo{
+    flex: 1 1 50%;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
+.back{
+    background-color: rgb(169, 204, 236);
+    
+}
+
+.ristr{
+    max-width: 900px;
+    margin:0 auto;
+    padding: 4rem 0;
+}
+ footer{
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+.contfoot{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.contfoot h3{
+    font-size: 1.2rem;
+}
+.tasto{
+    max-width: 100px;
+
+    
+}
+.bordo{
+    border-top: 1px solid white;
+    padding: 2rem 0;
+    color: grey;
+}
+
+.bordo-black{
+    border-top: 1px solid black;
+    padding: 2rem 0;
+}
+
+.flex5{
+    display: flex;
+    justify-content: space-between;
+}
+.frecciagiu{
+    flex:1 1 10%;
+    padding-left: 5rem; 
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+.bordobottom{
+    border-bottom: 1px solid black;
+}
+.diff{
+    flex:1 1 80%;
+    font-size: 0.8rem;
+    font-weight: bolder;  
+}
+
+.bord{
+    border-bottom:1px solid grey;
+    padding-bottom: 3rem;
 }
