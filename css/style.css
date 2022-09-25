@@ -51,7 +51,7 @@ li{
 
 .btn{
     color: white;
-    background-color: blue;
+    background-color: rgb(0, 85, 255);
     text-decoration: none;
     padding:10px;
     text-align: center;
@@ -121,8 +121,12 @@ h1{
 .caratt{
     flex:1 1 10%;
 }
+
 .spieg{
     flex:1 1 85%;
+}
+.colore{
+    color: rgb(43, 85, 222);
 }
 
 
@@ -340,28 +344,82 @@ h3,h4{
     
 }
 .logoimg{
-    width: 200px;
-    color: white;
-    justify-self: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;   
+    filter: invert(100%); 
+    max-width: 170px;
+    padding-left: 60px;
 }
+
+.diverso{
+    max-height: 30px;
+    margin-top: 100px;
+}
+
 
 .loghiflex{
     display: flex;
     flex-wrap: wrap;
 }
-.quattrologhi{
-    flex: 1 1 33%;
+.squaregrande{
+    flex: 1 1 25%;
     display: flex;
+    flex-wrap: wrap;
 }
 .quattrologhi div{
     flex: 1 1 50%;
 }
-
-.logouno{
-    padding: 50px;
-    background-color: rgb(31, 226, 151);
+.contornosuperiore{
+    border-top: 1px solid lightgray;
+    padding-top: 1.5rem;
 }
 
+
+.square{
+    position: relative;
+    width: 50%;
+    flex: 0 1 50%;
+}
+.logouno{
+    border: 10px solid rgb(201, 236, 206);
+    background-color: rgb(149, 224, 160) ;
+}
+.logodue{
+    background-color: rgb(81, 19, 19);
+}
+.logotre{
+    background-color: rgb(35, 153, 236);
+}
+.logoquattro{
+    background-color: rgb(251, 28, 16);
+}
+.logoetesto{
+    background-color: rgb(241, 240, 240);
+    padding: 30px;
+}
+.testodellogo{
+    max-width: 200px;
+}
+.logocinque{
+    background-color: rgb(219, 28, 18);
+}
+.logosei{
+    background-color: rgb(169, 204, 236);
+}
+.logosette{
+    background-color: rgb(9, 21, 86);
+}
+.logootto{
+    background-color: rgb(255, 230, 0);
+}
+
+
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
 .testoacapo{
     flex: 0 1 50%;
     color: rgb(81, 16, 16);
