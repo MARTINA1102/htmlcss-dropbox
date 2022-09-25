@@ -18,6 +18,7 @@ header{
     top: 0;
     left: 0;
     right:0;
+    z-index: 99;
 }
 
 .logo{
@@ -25,6 +26,7 @@ header{
 }
 
 .nav-links{
+    background-color: white;
     display: flex;
     justify-content: space-between;
     height: 4em;
@@ -57,6 +59,9 @@ li{
     text-align: center;
     font-size: .8rem;
     
+}
+p,span{
+    font-weight: 100;
 }
 
 
@@ -155,6 +160,7 @@ h2{
 
 .input{
     color: black;
+    font-weight: 100;
     padding-right: 20px;
     font-size: 0.8rem;
     
@@ -163,14 +169,17 @@ h2{
 li{
     list-style: none;
     font-size: 0.8rem;
+    font-weight: 100;
 }
 .spazio{
     padding: 3rem 0;
 }
 
 .intestazione{
-    padding: 1rem;
-    border: 1px solid grey;
+    padding: 0.5rem;
+    border-top: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
     text-align: center;
 }
 h2{
@@ -180,7 +189,7 @@ h2{
 
 .costo{
     font-size: 0.8rem;
-    font-weight: bolder;
+    font-weight:600;
     padding: 1rem 0;
 }
 .grey{
@@ -208,7 +217,7 @@ h3,h4{
 
 
 .contornato{
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
     padding: 1rem;
 
 }
@@ -285,11 +294,11 @@ h3,h4{
 }
 
 .imgdue{
-    flex:1 1 50%
+    flex:1 1 55%
 }
 
 .testo2{
-    flex: 1 1 30%;
+    flex: 1 1 27%;
     padding-left: 5rem; 
     padding-top: 5rem;  
 }
@@ -304,7 +313,8 @@ h3,h4{
 .bianco{
     background-color: white;
     color: black;
-    border:1px solid black;   
+    border:1px solid grey; 
+    font-weight: 100;  
 }
 
 .flex2{
@@ -398,9 +408,12 @@ h3,h4{
     background-color: rgb(241, 240, 240);
     padding: 30px;
 }
-.testodellogo{
+
+
+.logodeltesto{
     max-width: 200px;
 }
+
 .logocinque{
     background-color: rgb(219, 28, 18);
 }
@@ -423,13 +436,18 @@ h3,h4{
 .testoacapo{
     flex: 0 1 50%;
     color: rgb(81, 16, 16);
+    padding: 0;
 }
 
 .senzabordo{
     flex: 1 1 50%;
     background-color: white;
     border: 1px solid white;
-    color: black;
+    color: grey;
+    padding: .3rem 2rem;
+}
+.paddingtop{
+    padding-top: 1rem;
 }
 .back{
     background-color: rgb(169, 204, 236);
@@ -466,8 +484,8 @@ h3,h4{
     color: grey;
 }
 
-.bordo-black{
-    border-top: 1px solid black;
+.bordo-grey{
+    border-top: 1px solid rgb(153, 153, 153);
     padding: 2rem 0;
 }
 
@@ -482,7 +500,7 @@ h3,h4{
     font-weight: bolder;
 }
 .bordobottom{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(153, 153, 153);
 }
 .diff{
     flex:1 1 80%;
