@@ -498,9 +498,6 @@ h3,h4{
     padding-left: 5rem; 
     font-size: 0.8rem;
     font-weight: bolder;
-    position:relative;
-    top:0;
-    right: 0;
     
     
 }
@@ -512,7 +509,11 @@ h3,h4{
     font-size: 0.8rem;
     font-weight: bolder;
 }
-.ristr:hover .informazione{
+.box{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.box:hover .informazione{
     display:block;
 }
 
@@ -522,11 +523,6 @@ h3,h4{
 }
 
 
-.click{
-    position:absolute;
-    top:3rem;
-    left:0;
-}
 
 
 
